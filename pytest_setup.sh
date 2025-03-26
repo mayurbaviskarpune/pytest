@@ -33,6 +33,7 @@ ALLURE_BIN="/usr/local/bin/allure"
 echo "Downloading Allure $ALLURE_VERSION..."
 curl -o $ALLURE_TGZ -L $ALLURE_URL
 
+
 # Step 2: Extract Allure
 echo "Extracting Allure..."
 tar -zxvf $ALLURE_TGZ

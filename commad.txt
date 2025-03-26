@@ -6,6 +6,7 @@ git clone https://github.com/mayurbaviskarpune/pytest.git
 
 ./pytest_setup.sh
 
+
 #activate environment 
 
 source  my_venv/bin/activate
