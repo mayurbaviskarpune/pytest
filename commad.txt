@@ -16,3 +16,11 @@ pytest -v -s --alluredir=allure-results test_concept.py
 
 #generate allure report 
 allure serve /home/mayur/study/pytest/allure-results
+
+Feature	                            Syntax
+Install pytest	                    pip install pytest
+Run all tests	                    pytest
+Run specific test	                pytest test_file.py -k test_name
+Parametrize tests	                @pytest.mark.parametrize("a, b, expected", [...])
+Use fixtures	                    @pytest.fixture
+Skip tests	                        @pytest.mark.skip(reason="reason")
